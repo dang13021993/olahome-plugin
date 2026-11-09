@@ -1,0 +1,12 @@
+{
+  "name": "olahome",
+  "version": "1.0.0",
+  "description": "OlaHome: public listings of homes in Japan for foreign residents. Read-only: search listings, view one listing, and learn about OlaHome services.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "olahome": {
+      "httpUrl": "https://olahome.jp/mcp",
+      "timeout": 30000
+    }
+  }
+}

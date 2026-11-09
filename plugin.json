@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "olahome",
+  "version": "1.0.0",
+  "description": "OlaHome: public listings of homes in Japan for foreign residents. Read-only: search listings, view one listing, and learn about OlaHome services.",
+  "author": {
+    "name": "OlaHome",
+    "email": "booking@olahome.jp",
+    "url": "https://olahome.jp"
+  },
+  "homepage": "https://olahome.jp",
+  "license": "MIT",
+  "keywords": [
+    "japan",
+    "rental-housing",
+    "apartment",
+    "foreign-residents",
+    "mcp"
+  ]
+}

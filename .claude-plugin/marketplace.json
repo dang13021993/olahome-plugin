@@ -1,0 +1,14 @@
+{
+  "name": "olahome",
+  "owner": {
+    "name": "OlaHome",
+    "email": "booking@olahome.jp"
+  },
+  "plugins": [
+    {
+      "name": "olahome",
+      "source": "./",
+      "description": "OlaHome: public listings of homes in Japan for foreign residents. Read-only: search listings, view one listing, and learn about OlaHome services."
+    }
+  ]
+}

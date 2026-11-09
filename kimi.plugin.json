@@ -1,0 +1,31 @@
+{
+  "name": "olahome",
+  "version": "1.0.0",
+  "description": "OlaHome: public listings of homes in Japan for foreign residents. Read-only: search listings, view one listing, and learn about OlaHome services.",
+  "keywords": [
+    "japan",
+    "rental-housing",
+    "apartment",
+    "foreign-residents",
+    "mcp"
+  ],
+  "author": {
+    "name": "OlaHome",
+    "email": "booking@olahome.jp"
+  },
+  "homepage": "https://olahome.jp",
+  "license": "MIT",
+  "interface": {
+    "displayName": "OlaHome",
+    "shortDescription": "Homes in Japan for foreign residents: public listings, read-only",
+    "longDescription": "Connects to the public, read-only OlaHome MCP server (https://olahome.jp/mcp). Searches approved public OlaHome listings in Japan, returns one listing by its public ID, and describes OlaHome services and their legal limits. It never books or reserves a room, and availability is not real-time.",
+    "developerName": "OlaHome",
+    "websiteURL": "https://olahome.jp"
+  },
+  "skills": "./skills/",
+  "mcpServers": {
+    "olahome": {
+      "url": "https://olahome.jp/mcp"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "olahome",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OlaHome: public listings of homes in Japan for foreign residents. Read-only: search listings, view one listing, and learn about OlaHome services.",
+  "license": "MIT",
+  "homepage": "https://olahome.jp",
+  "author": "OlaHome <booking@olahome.jp>",
+  "keywords": [
+    "dsh",
+    "japan",
+    "rental-housing",
+    "apartment",
+    "foreign-residents",
+    "mcp"
+  ],
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

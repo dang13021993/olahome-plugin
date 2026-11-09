@@ -1,0 +1,9 @@
+- insert:
+    - id: olahome-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: olahome
+        transport: streamable-http
+        url: https://olahome.jp/mcp
+        toolCallTimeoutMs: 30000
+        failOnStartupError: true
