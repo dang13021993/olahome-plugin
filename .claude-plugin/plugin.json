@@ -14,5 +14,6 @@
     "apartment",
     "foreign-residents",
     "mcp"
-  ]
+  ],
+  "icon": ".claude-plugin/icon.png"
 }
